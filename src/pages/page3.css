@@ -1,0 +1,121 @@
+.wholeBlinds {
+    opacity: 0;
+  animation: blindsGroupAnimation;
+  animation-duration: 4s;
+  animation-fill-mode: forwards;
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+@keyframes blindsGroupAnimation {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+
+.BlindsLogo img {
+    padding-top: 150px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+@media (max-width: 940px) {
+    .BlindsLogo img {
+        width: 250px;
+        
+    } 
+}
+@media (max-width: 740px) {
+    .BlindsLogo img {
+        width: 200px;
+        
+    } 
+}
+
+
+
+.BlindSummary {
+    font-size: 25px;
+    width: 850px;
+    text-align: center;
+    margin: 0 auto;
+}
+@media (max-width: 940px) {
+    .BlindSummary {
+        width: 650px;
+        font-size: 20px;
+    } 
+}
+@media (max-width: 740px) {
+    .BlindSummary {
+        width: 450px;
+        font-size: 18px;
+    } 
+}
+
+
+
+
+.GroupInfo {
+    text-align: center;
+ }
+
+
+.homePage img {
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    box-shadow: 0 40px 70px rgba(2, 0, 12, 0.192);
+}
+@media (max-width: 940px) {
+    .homePage img {
+        width: 500px;
+        
+    } 
+}
+
+.headerSub {
+    font-size: 45px;
+    color: #3363ff;
+}
+
+
+.blindsWhole img {
+    margin: 0 auto;
+    width: 500px;
+    padding-top: 40px;
+}
+@media (max-width: 940px) {
+    .blindsWhole img {
+        width: 400px;
+        
+    } 
+}
+
+
+
+
+.blindsLaptop img {
+    width: 500px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 940px) {
+    .blindsLaptop img {
+        width: 400px;
+        
+    } 
+}
+@media (max-width: 740px) {
+    .blindsLaptop img {
+        width: 300px;
+        
+    } 
+}
