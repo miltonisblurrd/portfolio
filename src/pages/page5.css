@@ -1,9 +1,9 @@
 .wholeSurf {
-    opacity: 0;
+  opacity: 0;
   animation: surfGroupAnimation;
   animation-duration: 4s;
   animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 @keyframes surfGroupAnimation {
   0% {
@@ -16,109 +16,91 @@
   }
 }
 
-
-
 .ticketSurfLogo img {
-    padding-top: 150px;
-    display: block;
+  padding-top: 150px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-    
 }
 @media (max-width: 940px) {
-    .ticketSurfLogo img {
-        width: 250px;
-        
-    } 
+  .ticketSurfLogo img {
+    width: 250px;
+  }
 }
 @media (max-width: 740px) {
-    .ticketSurfLogo img {
-        width: 200px;
-        
-    } 
+  .ticketSurfLogo img {
+    width: 200px;
+  }
 }
-
-
 
 .ticketSurfSummary {
-    font-size: 25px;
-    width: 850px;
-    text-align: center;
-    margin: 0 auto;
+  font-size: 25px;
+  width: 850px;
+  text-align: center;
+  margin: 0 auto;
 }
 @media (max-width: 940px) {
-    .ticketSurfSummary {
-        width: 650px;
-        font-size: 20px;
-    } 
+  .ticketSurfSummary {
+    width: 650px;
+    font-size: 20px;
+  }
 }
 @media (max-width: 740px) {
-    .ticketSurfSummary {
-        width: 450px;
-        font-size: 18px;
-    } 
+  .ticketSurfSummary {
+    width: 350px;
+    font-size: 16px;
+  }
 }
-
-
-
 
 .GroupInfo {
-    text-align: center;
- }
-
+  text-align: center;
+}
 
 .ticketSurfUIExample img {
-    width: 600px;
-    margin: 0 auto;
-    
-    box-shadow: 0 40px 70px rgba(2, 0, 12, 0.192);
+  width: 600px;
+  margin: 0 auto;
+
+  box-shadow: 0 40px 70px rgba(2, 0, 12, 0.192);
 }
 @media (max-width: 940px) {
-    .homePage img {
-        width: 500px;
-        
-    } 
-}
-
-
-
-.pizzaWhole img {
-    margin: 0 auto;
+  .ticketSurfUIExample img {
     width: 500px;
-    
-}
-@media (max-width: 940px) {
-    .blindsWhole img {
-        width: 400px;
-        
-    } 
-}
-
-
-
-
-.ticketSurfComp img {
-    width: 500px;
-    display: block;
-  margin-left: auto;
-  margin-right: auto;
-  
-}
-@media (max-width: 940px) {
-    .ticketSurfComp img {
-        width: 400px;
-        
-    } 
+  }
 }
 @media (max-width: 740px) {
-    .ticketSurfComp img {
-        width: 300px;
-        
-    } 
+  .ticketSurfUIExample img {
+    width: 350px;
+  }
 }
 
+.pizzaWhole img {
+  margin: 0 auto;
+  width: 500px;
+}
+@media (max-width: 940px) {
+  .blindsWhole img {
+    width: 400px;
+  }
+}
+
+.ticketSurfComp img {
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media (max-width: 940px) {
+  .ticketSurfComp img {
+    width: 400px;
+  }
+}
+@media (max-width: 740px) {
+  .ticketSurfComp img {
+    width: 250px;
+  }
+}
 
 .headerSub {
-    font-size: 45px;
-    color: #3363ff;
+  font-size: 45px;
+  color: #3363ff;
 }

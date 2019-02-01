@@ -1,35 +1,34 @@
 .Header {
-    position: fixed;
-    width: 100%;
-    padding: 5px 0;
-    z-index: 100;
- 
+  position: fixed;
+  width: 100%;
+  padding: 5px 0;
+  z-index: 100;
 }
 
 .headerGroup {
-    max-width: 500px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3,auto);
-    align-items: center;
-    justify-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  justify-items: center;
+  text-align: center;
 }
 
 .Header a {
-    font-weight: 700;
-    font-size: 20px;
+  font-weight: 700;
+  font-size: 20px;
 }
 
-
 @media (max-wdith: 640px) {
-    .Header {
-        padding: 5px 0;
-    }
-    .headerGroup {
-        grid-template-columns: repeat(2, auto);
-    }
+  .Header {
+    padding: 5px 0;
+  }
+  .headerGroup {
+    grid-template-columns: repeat(2, auto);
+  }
 
-    .Header a:nth-child(1) {
-        display: none;
-    }
+  .Header a:nth-child(1) {
+    display: none;
+  }
 }

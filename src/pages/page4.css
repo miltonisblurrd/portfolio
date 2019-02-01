@@ -1,9 +1,9 @@
 .wholePizza {
-    opacity: 0;
+  opacity: 0;
   animation: pizzaGroupAnimation;
   animation-duration: 4s;
   animation-fill-mode: forwards;
-  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1)
+  animation-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
 }
 @keyframes pizzaGroupAnimation {
   0% {
@@ -16,111 +16,117 @@
   }
 }
 
-
-
-
 .pizzaGoLogo img {
-    padding-top: 150px;
-    display: block;
+  width: 300px;
+  padding-top: 150px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
-    
 }
 @media (max-width: 940px) {
-    .pizzaGoLogo img {
-        width: 250px;
-        
-    } 
+  .pizzaGoLogo img {
+    width: 250px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 @media (max-width: 740px) {
-    .pizzaGoLogo img {
-        width: 200px;
-        
-    } 
+  .pizzaGoLogo img {
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
-
-
 
 .pizzaGoSummary {
-    font-size: 25px;
-    width: 850px;
-    text-align: center;
-    margin: 0 auto;
+  font-size: 25px;
+  width: 850px;
+  text-align: center;
+  margin: 0 auto;
 }
 @media (max-width: 940px) {
-    .pizzaGoSummary {
-        width: 650px;
-        font-size: 20px;
-    } 
+  .pizzaGoSummary {
+    width: 650px;
+    font-size: 20px;
+  }
 }
 @media (max-width: 740px) {
-    .pizzaGoSummary {
-        width: 450px;
-        font-size: 18px;
-    } 
+  .pizzaGoSummary {
+    width: 350px;
+    font-size: 16px;
+  }
 }
-
-
-
 
 .GroupInfo {
-    text-align: center;
- }
-
+  text-align: center;
+}
 
 .pizzaHomePage img {
-    width: 600px;
-    margin: 0 auto;
-    padding-bottom: 50px;
-    box-shadow: 0 40px 70px rgba(2, 0, 12, 0.192);
-    
+  width: 600px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  box-shadow: 0 40px 70px rgba(2, 0, 12, 0.192);
 }
 @media (max-width: 940px) {
-    .homePage img {
-        width: 500px;
-        
-    } 
+  .pizzaHomePage img {
+    width: 500px;
+  }
 }
-
-
+@media (max-width: 740px) {
+  .pizzaHomePage img {
+    width: 300px;
+  }
+}
 
 .pizzaWhole img {
-    padding-top: 40px;
-    margin: 0 auto;
-    width: 500px;
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 500px;
 }
 @media (max-width: 940px) {
-    .blindsWhole img {
-        width: 400px;
-        
-    } 
+  .pizzaWhole img {
+    width: 400px;
+  }
+}
+@media (max-width: 740px) {
+  .pizzaWhole img {
+    width: 250px;
+  }
 }
 
-
-
-
 .pizzaGoComp img {
-    width: 500px;
-    display: block;
+  width: 500px;
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 @media (max-width: 940px) {
-    .blindsLaptop img {
-        width: 400px;
-        
-    } 
+  .pizzaGoComp img {
+    width: 400px;
+  }
 }
 @media (max-width: 740px) {
-    .blindsLaptop img {
-        width: 300px;
-        
-    } 
+  .pizzaGoComp img {
+    width: 300px;
+  }
 }
 
-
 .headerSub {
-    font-size: 45px;
-    color: #3363ff;
+  font-size: 45px;
+  color: #3363ff;
+  text-align: center;
+}
+@media (max-width: 940px) {
+  .headerSub {
+    font-size: 35px;
     text-align: center;
+  }
+}
+@media (max-width: 740px) {
+  .headerSub {
+    font-size: 22px;
+    text-align: center;
+  }
 }

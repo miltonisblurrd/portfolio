@@ -1,85 +1,76 @@
 .Card {
-    width: 750px;
-    height: 450px;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0px 30px 40px rgba(7, 0, 36, 0.13);
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    transition: cubic-bezier(0.2, 0.8, 0.2, 1)
+  width: 750px;
+  height: 450px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0px 30px 40px rgba(7, 0, 36, 0.13);
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  transition: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .Card:hover {
-    transform: scale(1.1, 1.1);
-    box-shadow: 0 40px 70px rgba(2, 0, 12, 0.192);
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 40px 70px rgba(2, 0, 12, 0.192);
 }
 @media (max-width: 940px) {
-    .Card  {
-        width: 550px;
-        height: 350px;
-    } 
+  .Card {
+    width: 550px;
+    height: 350px;
+  }
 }
 @media (max-width: 740px) {
-    .Card  {
-        width: 350px;
-        height: 250px;
-    } 
+  .Card {
+    width: 350px;
+    height: 250px;
+  }
 }
-
-
-
 
 .Card img {
-    position: absolute;
-    top: 0;
-    height: 110%;
-    z-index: -1;
-    transition: cubic-bezier(0.2, 0.8, 0.2, 1)
+  position: absolute;
+  top: 0;
+  height: 110%;
+  z-index: -1;
+  transition: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 .Card:hover img {
-    transform: translateY(-20px);
+  transform: translateY(-20px);
 }
-
 
 .Card h3 {
-    color: white;
-    font-size: 50px;
-    margin: 20px 0 0 20px;
-    width: 190px;
+  color: white;
+  font-size: 50px;
+  margin: 20px 0 0 20px;
+  width: 190px;
 }
 @media (max-width: 940px) {
-    .Card h3  {
-        font-size: 40px;
-        width: 110px;
-    } 
+  .Card h3 {
+    font-size: 40px;
+    width: 110px;
+  }
 }
 @media (max-width: 740px) {
-    .Card h3  {
-        font-size: 20px;
-        width: 80px;
-    } 
+  .Card h3 {
+    font-size: 20px;
+    width: 80px;
+  }
 }
-
-
-
 
 .Card p {
-    color: rgb(0, 0, 0);
-    text-transform: uppercase;
-    font-weight: 600;
-    font-size: 18px;
-    align-self: end;
-    margin: 0 0 20px 20px;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  align-self: end;
+  margin: 0 0 20px 20px;
 }
 @media (max-width: 940px) {
-    .Card p  {
-        font-size: 14px;
-        
-    } 
+  .Card p {
+    font-size: 14px;
+  }
 }
 @media (max-width: 740px) {
-    .Card p  {
-        font-size: 12px;
-        
-    } 
+  .Card p {
+    font-size: 12px;
+  }
 }
