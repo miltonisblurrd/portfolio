@@ -1,6 +1,6 @@
 .CardGroup {
   padding: 40px 0 40px 0;
-  margin: 0 autol;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(1, 3fr);
   grid-gap: 50px;
@@ -45,6 +45,16 @@
   100% {
     opacity: 1;
     transform: translateY(0px);
+  }
+}
+@media (max-width: 940px) {
+  .Cards h2 {
+    font-size: 30px;
+  }
+}
+@media (max-width: 740px) {
+  .Cards h2 {
+    font-size: 24px;
   }
 }
 

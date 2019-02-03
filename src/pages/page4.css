@@ -81,18 +81,20 @@
 }
 
 .pizzaWhole img {
-  padding-top: 40px;
-  margin: 0 auto;
-  width: 500px;
+  width: 300px;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 940px) {
   .pizzaWhole img {
-    width: 400px;
+    width: 250px;
   }
 }
 @media (max-width: 740px) {
   .pizzaWhole img {
-    width: 250px;
+    width: 150px;
   }
 }
 
@@ -119,14 +121,14 @@
   text-align: center;
 }
 @media (max-width: 940px) {
-  .headerSub {
+  .headerSub h2 {
     font-size: 35px;
     text-align: center;
   }
 }
 @media (max-width: 740px) {
-  .headerSub {
-    font-size: 22px;
+  .headerSub h2 {
+    font-size: 18px;
     text-align: center;
   }
 }

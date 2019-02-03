@@ -32,7 +32,7 @@
 @media (max-width: 740px) {
   .InfoGroup {
     text-align: left;
-    width: 400px;
+    width: 350px;
   }
 }
 
@@ -56,14 +56,17 @@
   width: 200px;
   flex-grow: 1;
   padding-left: 5px;
+  padding: 30px;
 }
 @media (max-width: 940px) {
   .InfoImage img {
     width: 175px;
+    padding: 10px;
   }
 }
 @media (max-width: 740px) {
   .InfoImage img {
     width: 150px;
+    padding: 5px;
   }
 }
