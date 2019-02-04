@@ -83,13 +83,20 @@
 }
 
 .blindsWhole img {
-  margin: 0 auto;
-  width: 500px;
-  padding-top: 40px;
+  width: 300px;
+  padding-top: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 @media (max-width: 940px) {
   .blindsWhole img {
-    width: 400px;
+    width: 250px;
+  }
+}
+@media (max-width: 740px) {
+  .blindsWhole img {
+    width: 150px;
   }
 }
 

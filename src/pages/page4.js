@@ -27,7 +27,7 @@ const PizzaGo = () => (
 
       <h2 className="headerSub">
         {' '}
-        Tools I used to Design <br /> & bring this to Life?{' '}
+        Tools I used to Design <br /> & begin bringing this to Life?{' '}
       </h2>
 
       <div className="pizzaGoSummary">
